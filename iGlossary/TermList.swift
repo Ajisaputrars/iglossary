@@ -15,11 +15,12 @@ struct TermList: View {
             VStack {
                 List(termList) { term in
                     NavigationLink(destination: TermDefinition(term: term)) {
-                      Text(term.name)
+                        Text(term.name)
                     }
                 }
             }
             .navigationBarTitle("Programming Glossary", displayMode: .inline)
+            
         }
     }
 }

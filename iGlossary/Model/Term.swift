@@ -12,7 +12,6 @@
 //
 
 import Foundation
-import SwiftUI
 
 struct Term: Codable, Hashable, Identifiable {
     var id: Int
